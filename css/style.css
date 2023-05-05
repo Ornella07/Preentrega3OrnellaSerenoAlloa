@@ -245,7 +245,6 @@ header .navbar-nav .nav-link:hover{
     text-decoration: none;
     padding-bottom: 10px;
 }
-
 .proyectos h3 {
     font-family: "Gruppo", cursive;
     font-size: 28px;
@@ -264,7 +263,6 @@ header .navbar-nav .nav-link:hover{
 .proyecto a {
     text-decoration: none;
 }
-
 .proyectos .box-container{
     width:100%;
     padding: 30px;
@@ -273,7 +271,6 @@ header .navbar-nav .nav-link:hover{
     grid-template-rows: repeat(3, 200px);
     gap:10rem;
 }
-
 .proyectos .contenido-proyectos .box-container .proyecto img {
     height: 250px;
     width: 460px;
@@ -292,7 +289,6 @@ header .navbar-nav .nav-link:hover{
     grid-template-rows: repeat(3, 200px);
     gap:10rem;
 }
-
 /* Tecnologias */
 .tecnologias{
     background: linear-gradient(
@@ -308,8 +304,6 @@ header .navbar-nav .nav-link:hover{
     flex-direction: column;
     align-items: center;
 }
-
-
 /* contactos
 .container-fluid{
     background:linear-gradient(
@@ -354,7 +348,6 @@ header .navbar-nav .nav-link:hover{
     padding: 9rem;
     
 } */
-
 /* Footer */
 .footer{
     font-family: "Raleway", sans-serif;
@@ -364,13 +357,11 @@ header .navbar-nav .nav-link:hover{
     background-color: #1e2326;
     color: #fff;
     margin-top: auto;
-   
 }
 .footer span{
     margin: 5px;
     color: #ed6a72;
 }
-
 @media screen and (max-width: 1450px){
     .inicio{
         height: 100vh;
@@ -378,7 +369,6 @@ header .navbar-nav .nav-link:hover{
     .inicio .contenedor-banner {
         padding: 20px;
         margin-top:70px
-
     }
     .inicio .sobremi{
         max-width: 1200px;
@@ -392,12 +382,9 @@ header .navbar-nav .nav-link:hover{
         line-height: 22px;
         margin-bottom: 20px;
         padding-left: 15px;
-    }   
-    
+    }      
 }
-
 @media screen and (max-width: 1133px){
-
     .proyectos .box-container{
         width:100%;
         padding: 30px;
@@ -407,7 +394,6 @@ header .navbar-nav .nav-link:hover{
         gap:10rem;
     }
 }
-
 @media screen and (max-width: 800px){
     .inicio .sobremi .contenido-seccion{
         font-size: 10px;
@@ -434,8 +420,6 @@ header .navbar-nav .nav-link:hover{
         padding-left: 30%;
     }
 }
-
-
 @media screen and (max-width: 480px){
     .inicio{
         height: 100%;
@@ -451,23 +435,20 @@ header .navbar-nav .nav-link:hover{
         width: 100%;
     }
 }
-
 @media screen and (max-width: 320px){
-    
-header .container-fluid .navbar-brand{
+    header .container-fluid .navbar-brand{
     font-family: "Gruppo", cursive;
     font-size: 20px;
     text-align: center;
     color: var(--text-title);
     font-weight: 200;
-}
+    }
     .inicio{
-        height: 100%;
+        height: 100%;   
     }
     .inicio .contenedor-banner {
         padding: 20px;
         margin-top:70px
-
     }
     .inicio .sobremi{
         max-width: 1200px;
@@ -486,8 +467,7 @@ header .container-fluid .navbar-brand{
     .inicio .sobremi .contenido-seccion p{
         font-size: 10px;
         margin-right: 8px;
-    }
-        
+    }   
     .inicio .sobremi .fila .col h3{
         font-size: 18px;
         font-family: "Gruppo",cursive;
@@ -501,7 +481,6 @@ header .container-fluid .navbar-brand{
         font-size: 10px;
         margin-left: -88px;
     }
-    
     .inicio .sobremi .fila .col .contenedor-intereses .interes{
         width: 50px;
         height: 50px;
@@ -514,14 +493,12 @@ header .container-fluid .navbar-brand{
         justify-content: center;
         transition: 0.3s;
     }
-    
     .inicio .sobremi .fila .col .contenedor-intereses .interes i{
         font-size: 10px;
     }
     .inicio .sobremi .fila .col .contenedor-intereses{
         padding-left: 22%;
     }
-        
     .inicio .sobremi button{
         cursor: pointer;
         border: 2px solid #ed6a72;
@@ -536,12 +513,14 @@ header .container-fluid .navbar-brand{
         position: relative;
         letter-spacing: 2px;
     }
-    
     .proyectos .contenido-proyectos .box-container .proyecto img {
         height: 150px;
         width: 260px;
         object-fit: cover;
         border-radius: 0.5rem;
+    }
+    .footer{
+        font-size: 10px;
     }
 
 }
