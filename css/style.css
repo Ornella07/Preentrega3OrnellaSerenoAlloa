@@ -309,6 +309,52 @@ header .navbar-nav .nav-link:hover{
     align-items: center;
 }
 
+
+/* contactos
+.container-fluid{
+    background:linear-gradient(
+        to top,
+        rgba(30, 35, 38, 0.8),
+        rgba(30, 35, 38, 1)
+    ),
+    url(../img/monit.jpg);
+    background-size: cover;
+}
+.infoContacto {
+    padding: 9rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.infoContacto h1 {
+    font-family: "Gruppo", sans-serif;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+  .infoContacto p {
+    font-family: "Raleway", cursive;
+    font-size: 22px;
+    border-bottom: 1px solid #374448;
+    padding: 5px 0 10px 0;
+}
+
+.infoContacto p i a{
+    text-decoration: none;
+}
+
+.infoContacto i {
+    color: #8FC8DB;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+} */
+/* 
+.formContacto {
+    padding: 9rem;
+    
+} */
+
 /* Footer */
 .footer{
     font-family: "Raleway", sans-serif;
@@ -351,15 +397,15 @@ header .navbar-nav .nav-link:hover{
 }
 
 @media screen and (max-width: 1133px){
-       
-.proyectos .box-container{
-    width:100%;
-    padding: 30px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 200px);
-    gap:10rem;
-}
+
+    .proyectos .box-container{
+        width:100%;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        gap:10rem;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -404,4 +450,98 @@ header .navbar-nav .nav-link:hover{
     .inicio .sobremi .fila .col{
         width: 100%;
     }
+}
+
+@media screen and (max-width: 320px){
+    
+header .container-fluid .navbar-brand{
+    font-family: "Gruppo", cursive;
+    font-size: 20px;
+    text-align: center;
+    color: var(--text-title);
+    font-weight: 200;
+}
+    .inicio{
+        height: 100%;
+    }
+    .inicio .contenedor-banner {
+        padding: 20px;
+        margin-top:70px
+
+    }
+    .inicio .sobremi{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .inicio .sobremi h3{
+        font-size: 15px;
+        padding-top:100px;
+    }
+    .inicio .sobremi .contenido-seccion{
+        font-size: 10px;
+        line-height: 22px;
+        margin-bottom: 20px;
+        padding-left: 15px;
+    }   
+    .inicio .sobremi .contenido-seccion p{
+        font-size: 10px;
+        margin-right: 8px;
+    }
+        
+    .inicio .sobremi .fila .col h3{
+        font-size: 18px;
+        font-family: "Gruppo",cursive;
+        margin-bottom: 25px;
+    }
+    .inicio .sobremi .fila .col ul{
+        list-style: none;
+    }
+    .inicio .sobremi .fila .col ul li{
+        margin: 12px 0;
+        font-size: 10px;
+        margin-left: -88px;
+    }
+    
+    .inicio .sobremi .fila .col .contenedor-intereses .interes{
+        width: 50px;
+        height: 50px;
+        background-color: #1e2326;
+        margin: 0 15px 15px 0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    
+    .inicio .sobremi .fila .col .contenedor-intereses .interes i{
+        font-size: 10px;
+    }
+    .inicio .sobremi .fila .col .contenedor-intereses{
+        padding-left: 22%;
+    }
+        
+    .inicio .sobremi button{
+        cursor: pointer;
+        border: 2px solid #ed6a72;
+        background-color: transparent;
+        width: fit-content;
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        color: #ed6a72;
+        font-size: 14px;
+        z-index: 99;
+        position: relative;
+        letter-spacing: 2px;
+    }
+    
+    .proyectos .contenido-proyectos .box-container .proyecto img {
+        height: 150px;
+        width: 260px;
+        object-fit: cover;
+        border-radius: 0.5rem;
+    }
+
 }
