@@ -1,0 +1,66 @@
+/* Proyectos */
+.proyectos{
+    background: linear-gradient(
+        to top,
+        rgba(30, 35, 38, 0.8),
+        rgba(30, 35, 38, 1)
+    ),
+    url(../img/monit.jpg);
+    background-size: cover;
+    height: 150%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .contenido-proyectos {
+        font-family: "Gruppo", cursive;
+        font-size: 28px;
+        color: var(--text-title);
+        text-align: center;
+        padding-top: 100px;
+        text-decoration: none;
+        padding-bottom: 10px;
+
+        .box-container{
+            width:100%;
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 200px);
+            gap:10rem;
+    
+            .proyecto {
+                img {
+                height: 250px;
+                width: 460px;
+                object-fit: cover;
+                border-radius: 0.5rem;
+                &:hover{
+                    color: var(--text-title);
+                    box-shadow: 0 0 45px var(--text-title);
+                    }
+                }
+            
+                }
+            }
+        h3 {
+            font-family: "Gruppo", cursive;
+            font-size: 28px;
+            color: var(--text-title);
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+            padding-bottom: 10px;
+        }
+        h4 {
+            text-align: center;
+            color: #ed6a72;
+            font-family: "Raleway", sans-serif;
+            margin: 20px;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
