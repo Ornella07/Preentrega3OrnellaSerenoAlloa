@@ -304,6 +304,21 @@ header .navbar-nav .nav-link:hover{
     flex-direction: column;
     align-items: center;
 }
+
+.content{
+    background: linear-gradient(
+        to top,
+        rgba(30, 35, 38, 0.8),
+        rgba(30, 35, 38, 1)
+    ),
+    url(../img/monit.jpg);
+    background-size: cover;
+    height: 150%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* contactos
 .container-fluid{
     background:linear-gradient(
