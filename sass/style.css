@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.4rem;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--text-dark);
+  border-radius: 0.5rem;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
@@ -57,6 +73,15 @@ header .navbar-nav .nav-link:hover {
   color: var(--text-title);
 }
 
+.ini, .tecnologias, .inicio, .proyectos, .contacto {
+  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/monit.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
 /* Inicio */
 .inicio {
   background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/monit.jpg);
@@ -64,14 +89,14 @@ header .navbar-nav .nav-link:hover {
   height: 150%;
   color: #fff;
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 .inicio .contenedor-banner {
   padding: 20px;
+  padding-top: 155px;
   margin: auto;
   background-color: var(--text-dark);
   max-width: 350px;
-  margin-top: 70px;
   text-align: center;
   border-radius: 40px;
 }
@@ -112,14 +137,6 @@ header .navbar-nav .nav-link:hover {
 }
 
 /* Contactos */
-.contacto {
-  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/monit.jpg);
-  background-size: cover;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-}
 .contacto form {
   background-color: hsla(0, 2%, 21%, 0.48);
   padding-top: 40px;
@@ -130,7 +147,7 @@ header .navbar-nav .nav-link:hover {
   border-radius: 40px;
 }
 .contacto form h3 {
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Gruppo", cursive;
   color: var(--text-title);
   margin: 0;
@@ -167,15 +184,6 @@ header .navbar-nav .nav-link:hover {
 }
 
 /* Proyectos */
-.proyectos {
-  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/monit.jpg);
-  background-size: cover;
-  height: 150%;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .proyectos .contenido-proyectos {
   font-family: "Gruppo", cursive;
   font-size: 28px;
@@ -224,14 +232,6 @@ header .navbar-nav .nav-link:hover {
 }
 
 /* Sobre Mi */
-.inicio {
-  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/monit.jpg);
-  background-size: cover;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  align-items: center;
-}
 .inicio .sobremi {
   max-width: 1200px;
   margin: auto;
@@ -328,14 +328,6 @@ header .navbar-nav .nav-link:hover {
 }
 
 /* Tecnologias */
-.tecnologias {
-  background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/monit.jpg);
-  background-size: cover;
-  height: 100vh;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-}
 .tecnologias .container-tecnologia {
   padding-top: 100px;
 }
@@ -542,7 +534,8 @@ header .navbar-nav .nav-link:hover {
   .inicio .sobremi .fila .col {
     width: 100%;
   }
-  .contacto form, .contacto textarea {
+  .contacto form,
+  .contacto textarea {
     max-width: 88%;
   }
   .tecnologias {

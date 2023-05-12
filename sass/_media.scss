@@ -1,278 +1,304 @@
 /* Media 1450 */
-@media screen and (max-width: 1450px){
-    .inicio{
-        height:100%;
+@media screen and (max-width: 1450px) {
+    .inicio {
+        height: 100%;
+    
         .contenedor-banner {
             padding: 20px;
-            margin-top:70px
+            margin-top: 70px;
         }
-        .sobremi{
+
+        .sobremi {
             max-width: 1200px;
             margin: auto;
-            h3{
-                padding-top:100px;
+
+            h3 {
+                padding-top: 100px;
             }
-            .contenido-seccion{
+
+            .contenido-seccion {
                 font-size: 10px;
                 line-height: 22px;
                 margin-bottom: 20px;
                 padding-left: 15px;
-            }      
+            }
         }
     }
-    .contacto{
+
+    .contacto {
         height: 100%;
     }
 }
 
 /* Media 1133*/
-@media screen and (max-width: 1133px){
-.proyectos{
-    height: 100%;
-    .contenido-proyectos {
-        font-family: "Gruppo", cursive;
-        font-size: 25px;
-        color: var(--text-title);
-        text-align: center;
-        padding-top: 50px;
-        text-decoration: none;
-        padding-bottom: 6px;
+@media screen and (max-width: 1133px) {
+    .proyectos {
+        height: 100%;
 
-        .box-container{
-            width:100%;
-            padding: 30px;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-rows: repeat(3, 200px);
-            gap:10rem;
-    
-            .proyecto {
-                img {
-                height: 250px;
-                width: 460px;
-                object-fit: cover;
-                border-radius: 0.5rem;
-                &:hover{
-                    color: var(--text-title);
-                    box-shadow: 0 0 45px var(--text-title);
+        .contenido-proyectos {
+            font-family: $font1;
+            font-size: 25px;
+            color: var(--text-title);
+            text-align: center;
+            padding-top: 50px;
+            text-decoration: none;
+            padding-bottom: 6px;
+
+            .box-container {
+                width: 100%;
+                padding: 30px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-template-rows: repeat(3, 200px);
+                gap: 10rem;
+
+                .proyecto {
+                    img {
+                        height: 250px;
+                        width: 460px;
+                        object-fit: cover;
+                        border-radius: 0.5rem;
+
+                        &:hover {
+                            color: var(--text-title);
+                            box-shadow: 0 0 45px var(--text-title);
+                        }
                     }
                 }
-            
-                }
             }
+
             h4 {
                 text-align: center;
                 color: #ed6a72;
-                font-family: "Raleway", sans-serif;
+                font-family:$font2;
                 margin: 20px;
                 font-size: 20px;
             }
+        }
+    }
 
-    }
-    }
-    .tecnologias{
+    .tecnologias {
         height: 100%;
     }
 }
 
 /*Media 800px*/
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) {
     header {
         .container-fluid {
-        .navbar-brand{
-            font-family: "Gruppo", cursive;
-            font-size: 27px;
-            text-align: center;
-            color: var(--text-title);
-            font-weight: 200;
+            .navbar-brand {
+                font-family:$font1;
+                font-size: 27px;
+                text-align: center;
+                color: var(--text-title);
+                font-weight: 200;
+            }
         }
-    }}
-    
-    .inicio{
+    }
+
+    .inicio {
         height: 100%;
-        .sobremi{
-            .contenido-seccion{
+
+        .sobremi {
+            .contenido-seccion {
                 font-size: 10px;
                 line-height: 22px;
                 padding-left: 15px;
             }
-            h3{
+
+            h3 {
                 padding-top: 50px;
             }
         }
-        .fila{
+
+        .fila {
             display: flex;
             flex-direction: column;
-            .col{
-                width:100%;
-                ul{
-                    li{
+
+            .col {
+                width: 100%;
+
+                ul {
+                    li {
                         padding-left: 30%;
                     }
                 }
-                .contenedor-intereses{
+
+                .contenedor-intereses {
                     padding-left: 30%;
                 }
             }
         }
     }
-    .proyectos{
+
+    .proyectos {
         .contenido-proyectos {
-            .box-container{
-                width:100%;
+            .box-container {
+                width: 100%;
                 padding: 30px;
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
                 grid-template-rows: repeat(3, 200px);
-                gap:6rem;
-        
+                gap: 6rem;
+
                 .proyecto {
                     img {
-                    height: 203px;
-                    width: 393px;
-                    object-fit: cover;
-                    border-radius: 0.5rem;
-                    &:hover{
-                        color: var(--text-title);
-                        box-shadow: 0 0 45px var(--text-title);
+                        height: 203px;
+                        width: 393px;
+                        object-fit: cover;
+                        border-radius: 0.5rem;
+
+                        &:hover {
+                            color: var(--text-title);
+                            box-shadow: 0 0 45px var(--text-title);
                         }
                     }
-                
-                    }
                 }
-
+            }
         }
     }
-    
-    .tecnologias{
+
+    .tecnologias {
         height: 100%;
-        .container-tecnologia{
-            p{
+
+        .container-tecnologia {
+            p {
                 font-size: 14px;
                 margin: 15px;
                 display: flex;
-                justify-content:end
+                justify-content: end;
             }
-            .box-tecno{
+
+            .box-tecno {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(3, 160px);
                 text-align: center;
-                gap:3.4rem;
+                gap: 3.4rem;
             }
         }
-        
     }
 }
 
 /* Media 480*/
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px) {
     header {
         .container-fluid {
-        .navbar-brand{
-            font-family: "Gruppo", cursive;
-            font-size: 20px;
-            text-align: center;
-            color: var(--text-title);
-            font-weight: 200;
-        }
-    }}
-    
-    .inicio{
-        height: 100%;
-        .sobremi{
-            h3{
-                padding-top:50px; 
+            .navbar-brand {
+                font-family: $font1;
+                font-size: 20px;
+                text-align: center;
+                color: var(--text-title);
+                font-weight: 200;
             }
-            .fila{
+        }
+    }
+    .inicio {
+        height: 100%;
+        .sobremi {
+            h3 {
+                padding-top: 50px;
+            }
+            .fila {
                 display: flex;
                 flex-direction: column;
-                .col{
+
+                .col {
                     width: 100%;
                 }
             }
         }
     }
-    .contacto{
-       form, textarea{
-        max-width: 88%;
-       }
+
+    .contacto {
+        form,
+        textarea {
+            max-width: 88%;
+        }
     }
-    
-    .tecnologias{
+
+    .tecnologias {
         height: 100%;
-        .container-tecnologia{
-            
-            p{
+
+        .container-tecnologia {
+            p {
                 font-size: 12px;
                 margin: 15px;
                 display: flex;
-                justify-content:end
+                justify-content: end;
             }
-            .box-tecno{
+
+            .box-tecno {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(3, 140px);
                 text-align: center;
-                gap:0.4rem;
-            
-                .tecno{
-                    img{
+                gap: 0.4rem;
+
+                .tecno {
+                    img {
                         width: 100px;
                         height: 100px;
                     }
                 }
-                
             }
         }
-        
     }
 }
 
 /*Media 320*/
-@media screen and (max-width: 320px){
-    
-    .inicio{
-        height: 100%;   
+@media screen and (max-width: 320px) {
+    .inicio {
+        height: 100%;
+
         .contenedor-banner {
             padding: 20px;
-            margin-top:70px
+            margin-top: 70px;
         }
-        .sobremi{
+
+        .sobremi {
             max-width: 1200px;
             margin: auto;
-            h3{
+
+            h3 {
                 font-size: 15px;
-                padding-top:100px;
+                padding-top: 100px;
             }
-            .contenido-seccion{
+
+            .contenido-seccion {
                 font-size: 10px;
                 line-height: 22px;
                 margin-bottom: 20px;
                 padding-left: 15px;
-                p{
+
+                p {
                     font-size: 10px;
                     margin-right: 8px;
-                }   
-            } 
+                }
+            }
+
             .fila {
                 .col {
-                    h3{
+                    h3 {
                         font-size: 18px;
-                        font-family: "Gruppo",cursive;
+                        font-family: $font1;
                         margin-bottom: 25px;
-                    } 
-                    ul{
+                    }
+
+                    ul {
                         list-style: none;
-                        li{
+
+                        li {
                             margin: 12px 0;
                             font-size: 10px;
                             margin-left: -88px;
                         }
-                    } 
+                    }
+
                     .contenedor-intereses {
                         padding-left: 22%;
-                        .interes{
+
+                        .interes {
                             width: 50px;
                             height: 50px;
                             background-color: #1e2326;
@@ -283,14 +309,16 @@
                             align-items: center;
                             justify-content: center;
                             transition: 0.3s;
-                            i{
+
+                            i {
                                 font-size: 10px;
                             }
                         }
                     }
                 }
             }
-            button{
+
+            button {
                 cursor: pointer;
                 border: 2px solid #ed6a72;
                 background-color: transparent;
@@ -306,8 +334,9 @@
             }
         }
     }
+
     .proyectos {
-        .contenido-proyectos{
+        .contenido-proyectos {
             .box-container {
                 .proyecto {
                     img {
@@ -320,7 +349,8 @@
             }
         }
     }
-    .footer{
+
+    .footer {
         font-size: 10px;
     }
 }

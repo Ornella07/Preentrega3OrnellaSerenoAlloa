@@ -1,12 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400&display=swap");
+@import  url("https://fonts.googleapis.com/css2?family=Gruppo&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400&display=swap");
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    overflow-x: hidden;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+    width: 0.4rem;
+    }
+    &::-webkit-scrollbar-track {
+    background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+    background: var(--text-dark);
+    border-radius: 0.5rem;
+    }
+}
+
 body{
-    font-family: "Raleway", sans-serif;
+    font-family:"Raleway", sans-serif;
     font-size: 16px;
     scroll-behavior: smooth;
     display: flex;
@@ -65,7 +81,7 @@ header {
 
 
 
-
+@import "variables";
 @import "inicio";
 @import "contacto";
 @import "proyecto";
