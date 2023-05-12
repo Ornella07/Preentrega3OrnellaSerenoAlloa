@@ -121,6 +121,7 @@ header .navbar-nav .nav-link:hover {
   justify-content: center;
 }
 .contacto form {
+  background-color: hsla(0, 2%, 21%, 0.48);
   padding-top: 40px;
   margin: auto;
   max-width: 500px;
@@ -149,9 +150,10 @@ header .navbar-nav .nav-link:hover {
   margin-bottom: 20px;
   box-sizing: border-box;
   font-size: 18px;
-  border: 1px solid var(--text-title);
-  border-radius: 30px;
   background-color: transparent;
+  border: none;
+  border-bottom: white thin solid;
+  outline: none;
   text-decoration: none;
 }
 .contacto form textarea {
@@ -445,9 +447,19 @@ header .navbar-nav .nav-link:hover {
     margin: 20px;
     font-size: 20px;
   }
+  .tecnologias {
+    height: 100%;
+  }
 }
 /*Media 800px*/
 @media screen and (max-width: 800px) {
+  header .container-fluid .navbar-brand {
+    font-family: "Gruppo", cursive;
+    font-size: 27px;
+    text-align: center;
+    color: var(--text-title);
+    font-weight: 200;
+  }
   .inicio {
     height: 100%;
   }
@@ -491,10 +503,26 @@ header .navbar-nav .nav-link:hover {
     color: var(--text-title);
     box-shadow: 0 0 45px var(--text-title);
   }
+  .tecnologias {
+    height: 100%;
+  }
+  .tecnologias .container-tecnologia p {
+    font-size: 14px;
+    margin: 15px;
+    display: flex;
+    justify-content: end;
+  }
+  .tecnologias .container-tecnologia .box-tecno {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 160px);
+    text-align: center;
+    gap: 3.4rem;
+  }
 }
 /* Media 480*/
 @media screen and (max-width: 450px) {
-  .container-fluid .navbar-brand {
+  header .container-fluid .navbar-brand {
     font-family: "Gruppo", cursive;
     font-size: 20px;
     text-align: center;
@@ -516,6 +544,26 @@ header .navbar-nav .nav-link:hover {
   }
   .contacto form, .contacto textarea {
     max-width: 88%;
+  }
+  .tecnologias {
+    height: 100%;
+  }
+  .tecnologias .container-tecnologia p {
+    font-size: 12px;
+    margin: 15px;
+    display: flex;
+    justify-content: end;
+  }
+  .tecnologias .container-tecnologia .box-tecno {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 140px);
+    text-align: center;
+    gap: 0.4rem;
+  }
+  .tecnologias .container-tecnologia .box-tecno .tecno img {
+    width: 100px;
+    height: 100px;
   }
 }
 /*Media 320*/

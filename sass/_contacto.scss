@@ -13,12 +13,14 @@
     justify-content: center;
 
     form{
+        background-color: hsla(0, 2%, 21%, 0.48);
         padding-top: 40px;
         margin: auto;
         max-width: 500px;
         margin-top:70px;
         text-align:center;
         border-radius: 40px;
+        
         h3{
             font-size: 25px;
             font-family: "Gruppo", cursive;
@@ -40,9 +42,10 @@
             margin-bottom: 20px;
             box-sizing: border-box;
             font-size: 18px;
-            border:1px solid var(--text-title);
-            border-radius: 30px;
             background-color: transparent;
+            border:none;
+            border-bottom: white thin solid;
+            outline: none;
             text-decoration: none;
         }
         textarea{

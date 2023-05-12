@@ -69,11 +69,25 @@
             }
 
     }
-}
+    }
+    .tecnologias{
+        height: 100%;
+    }
 }
 
 /*Media 800px*/
 @media screen and (max-width: 800px){
+    header {
+        .container-fluid {
+        .navbar-brand{
+            font-family: "Gruppo", cursive;
+            font-size: 27px;
+            text-align: center;
+            color: var(--text-title);
+            font-weight: 200;
+        }
+    }}
+    
     .inicio{
         height: 100%;
         .sobremi{
@@ -130,12 +144,31 @@
         }
     }
     
-    
+    .tecnologias{
+        height: 100%;
+        .container-tecnologia{
+            p{
+                font-size: 14px;
+                margin: 15px;
+                display: flex;
+                justify-content:end
+            }
+            .box-tecno{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 160px);
+                text-align: center;
+                gap:3.4rem;
+            }
+        }
+        
+    }
 }
 
 /* Media 480*/
 @media screen and (max-width: 450px){
-    .container-fluid {
+    header {
+        .container-fluid {
         .navbar-brand{
             font-family: "Gruppo", cursive;
             font-size: 20px;
@@ -143,7 +176,8 @@
             color: var(--text-title);
             font-weight: 200;
         }
-    }
+    }}
+    
     .inicio{
         height: 100%;
         .sobremi{
@@ -163,6 +197,35 @@
        form, textarea{
         max-width: 88%;
        }
+    }
+    
+    .tecnologias{
+        height: 100%;
+        .container-tecnologia{
+            
+            p{
+                font-size: 12px;
+                margin: 15px;
+                display: flex;
+                justify-content:end
+            }
+            .box-tecno{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 140px);
+                text-align: center;
+                gap:0.4rem;
+            
+                .tecno{
+                    img{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+                
+            }
+        }
+        
     }
 }
 
