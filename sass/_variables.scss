@@ -16,7 +16,8 @@ $row-tecno:repeat(2, 200px);
 .ini{
     background:$fondo;
     background-size: cover;
-    height: 150%;
+    // height: 100vh;
+    height: 120%;
     color: #fff;
     display: flex;
     justify-content: center;
