@@ -76,11 +76,6 @@ header .navbar-nav .nav-link:hover {
 .ini, .tecnologias, .inicio, .proyectos, .contacto {
   background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/monit.jpg);
   background-size: cover;
-<<<<<<< HEAD
-  height: 120%;
-=======
-  height: 200vh;
->>>>>>> 6250645e154dcf6a53c1e4add093a8a6a7182c9e
   color: #fff;
   display: flex;
   justify-content: center;
@@ -90,10 +85,10 @@ header .navbar-nav .nav-link:hover {
 .inicio {
   background: linear-gradient(to top, rgba(30, 35, 38, 0.8), rgb(30, 35, 38)), url(../img/monit.jpg);
   background-size: cover;
-  height: 150%;
   color: #fff;
   display: flex;
   justify-content: center;
+  bottom: 0;
 }
 .inicio .contenedor-banner {
   padding: 20px;
@@ -381,11 +376,7 @@ header .navbar-nav .nav-link:hover {
 /* Media 1450 */
 @media screen and (max-width: 1450px) {
   .inicio {
-<<<<<<< HEAD
-    height: 125vh;
-=======
-    height: 130%;
->>>>>>> 6250645e154dcf6a53c1e4add093a8a6a7182c9e
+    height: 120vh;
   }
   .inicio .contenedor-banner {
     padding: 20px;
@@ -403,6 +394,9 @@ header .navbar-nav .nav-link:hover {
     line-height: 22px;
     margin-bottom: 20px;
     padding-left: 15px;
+  }
+  .tecnologias {
+    height: 120vh;
   }
   .contacto {
     height: 100%;
@@ -449,7 +443,7 @@ header .navbar-nav .nav-link:hover {
     font-size: 20px;
   }
   .tecnologias {
-    height: 120vh;
+    height: 130vh;
   }
 }
 /*Media 800px*/
@@ -462,7 +456,7 @@ header .navbar-nav .nav-link:hover {
     font-weight: 200;
   }
   .inicio {
-    height: 160vh;
+    height: 100%;
   }
   .inicio .sobremi .contenido-seccion {
     font-size: 10px;
@@ -505,7 +499,7 @@ header .navbar-nav .nav-link:hover {
     box-shadow: 0 0 45px var(--text-title);
   }
   .tecnologias {
-    height: 160vh;
+    height: 130vh;
   }
   .tecnologias .container-tecnologia p {
     font-size: 14px;
@@ -548,7 +542,7 @@ header .navbar-nav .nav-link:hover {
     max-width: 88%;
   }
   .tecnologias {
-    height: 100%;
+    height: 130vh;
   }
   .tecnologias .container-tecnologia p {
     font-size: 12px;
@@ -571,7 +565,7 @@ header .navbar-nav .nav-link:hover {
 /*Media 320*/
 @media screen and (max-width: 320px) {
   .inicio {
-    height: 100%;
+    height: 125vh;
   }
   .inicio .contenedor-banner {
     padding: 20px;

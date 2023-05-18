@@ -2,10 +2,11 @@
 .inicio{
     background:$fondo;
     background-size: cover;
-    height: 150%;
+    // height: 150%;
     color: #fff;
     display: flex;
     justify-content: center;
+    bottom: 0;
 
     .contenedor-banner {
         padding: 20px;
