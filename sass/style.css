@@ -198,7 +198,7 @@ header .navbar-nav .nav-link:hover {
   padding: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 200px);
+  grid-template-rows: repeat(3, 200px);
   gap: 10rem;
 }
 .proyectos .contenido-proyectos .box-container .proyecto img {
