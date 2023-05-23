@@ -92,7 +92,7 @@ header .navbar-nav .nav-link:hover {
 }
 .inicio .contenedor-banner {
   padding: 20px;
-  padding-top: 155px;
+  padding-top: 50px;
   margin: auto;
   background-color: var(--text-dark);
   max-width: 350px;
@@ -376,7 +376,7 @@ header .navbar-nav .nav-link:hover {
 /* Media 1450 */
 @media screen and (max-width: 1450px) {
   .inicio {
-    height: 120vh;
+    height: 100%;
   }
   .inicio .contenedor-banner {
     padding: 20px;
@@ -396,7 +396,7 @@ header .navbar-nav .nav-link:hover {
     padding-left: 15px;
   }
   .tecnologias {
-    height: 120vh;
+    height: 160vh;
   }
   .contacto {
     height: 100%;
@@ -456,7 +456,7 @@ header .navbar-nav .nav-link:hover {
     font-weight: 200;
   }
   .inicio {
-    height: 130vh;
+    height: 100%;
   }
   .inicio .sobremi .contenido-seccion {
     font-size: 10px;
@@ -499,7 +499,7 @@ header .navbar-nav .nav-link:hover {
     box-shadow: 0 0 45px var(--text-title);
   }
   .tecnologias {
-    height: 130vh;
+    height: 100%;
   }
   .tecnologias .container-tecnologia p {
     font-size: 14px;
@@ -525,7 +525,7 @@ header .navbar-nav .nav-link:hover {
     font-weight: 200;
   }
   .inicio {
-    height: 120vh;
+    height: 100%;
   }
   .inicio .sobremi h3 {
     padding-top: 50px;
@@ -542,7 +542,7 @@ header .navbar-nav .nav-link:hover {
     max-width: 88%;
   }
   .tecnologias {
-    height: 130vh;
+    height: 1000%;
   }
   .tecnologias .container-tecnologia p {
     font-size: 12px;
@@ -565,7 +565,7 @@ header .navbar-nav .nav-link:hover {
 /*Media 320*/
 @media screen and (max-width: 320px) {
   .inicio {
-    height: 125vh;
+    height: 100%;
   }
   .inicio .contenedor-banner {
     padding: 20px;
